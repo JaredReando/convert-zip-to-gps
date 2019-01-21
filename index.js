@@ -4,6 +4,9 @@ exports.zipConvert = function(zip) {
   //key lookup buggy with leading '0's. If inputted zip begins with '0', it is stripped prior to key/value search to return GPS coords.
   if(zip[0] === '0') {
     zip = zip.slice(1);
+  } else if(zip.length != 5) {
+    let length = zip.length
+    return `ZIP code length invalid: ${length} digits entered.`
   }
 
 
