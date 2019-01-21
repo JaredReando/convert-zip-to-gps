@@ -38,7 +38,7 @@ Returned value:
 
 - Zip codes from US Census Bureau (Census.gov › Geography › Maps & Data › Gazetteer Files › 2017 U.S. Gazetteer Files)
 http://www.census.gov/geo/maps-data/data/gazetteer2017.html
-- Modeled after [gps2zip](https://github.com/NickCarneiro/gps2zip) NPM module by [Nick Carneiro](https://github.com/NickCarneiro/)
+- Modeled after [gps2zip](https://www.npmjs.com/package/Gps2zip) NPM module by [Nick Carneiro](https://github.com/NickCarneiro/)
 
 ## Contact
 Email: jaredreando@gmail.com
