@@ -1,0 +1,19 @@
+{
+  "name": "zip2gps",
+  "version": "1.0.0",
+  "description": "Convert any U.S. zip code into lat/long GPS coordinates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ZIP",
+    "code",
+    "gps",
+    "convert",
+    "coordinates",
+    "geography"
+  ],
+  "author": "Jared Reando <jaredreando@gmail.com>",
+  "license": "ISC"
+}
