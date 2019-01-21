@@ -1,6 +1,6 @@
 {
   "name": "convert-zip-to-gps",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert any U.S. zip code into approximate lat/long GPS coordinates.",
   "main": "index.js",
   "scripts": {
