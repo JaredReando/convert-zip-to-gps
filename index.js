@@ -1,6 +1,7 @@
 var lodash = require('lodash');
 
 exports.zipConvert = function(zip) {
+  zip = zip.toString();
   //key lookup buggy with leading '0's. If inputted zip begins with '0', it is stripped prior to key/value search to return GPS coords.
   if(zip[0] === '0') {
     zip = zip.slice(1);
